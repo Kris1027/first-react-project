@@ -1,0 +1,36 @@
+@import 'variables';
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: $Very-Light-Gray;
+    font-family: 'Karla', sans-serif;
+}
+
+.logo {
+    width: 112px;
+    padding: 0 1rem;
+
+    .logo__image {
+        background-image: url('../images/logo.svg');
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 20px;
+    }
+}
+
+.hamburger {
+    width: 33px;
+    padding: 0 1rem;
+
+    .hamburger__image {
+        background-image: url('../images/icon-hamburger.svg');
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 33px;
+    }
+}
