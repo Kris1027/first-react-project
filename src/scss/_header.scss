@@ -33,4 +33,8 @@
         width: 100%;
         height: 33px;
     }
+
+    .hamburger__image.active {
+        background-image: url('../images/icon-close.svg');
+    }
 }
