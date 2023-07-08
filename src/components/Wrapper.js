@@ -1,12 +1,14 @@
 import React from 'react';
-import Header from './Header';
-import Nav from './Nav';
+import Header from './header';
+import Nav from './nav';
+import Main from './main';
 
 function Wrapper() {
     return (
         <div className='wrapper'>
             <Header />
             <Nav />
+            <Main />
         </div>
     )
 }
