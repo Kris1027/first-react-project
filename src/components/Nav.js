@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Nav({ isActive, toggleClass}) {
+function Nav({ isActive }) {
 
     const menuToggle = isActive ? 'menu active' : 'menu';
 
