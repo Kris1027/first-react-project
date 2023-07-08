@@ -6,7 +6,7 @@ function Nav({ isActive, toggleClass}) {
 
     const navCategories = ['how we work', 'blog', 'account', 'view plans'];
     return (
-        <nav className={menuToggle} onClick={toggleClass}>
+        <nav className={menuToggle}>
             {navCategories.map((category, index) => (
                 <button key={index} className='menu__btn'>{category}</button>
             ))};
