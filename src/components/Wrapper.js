@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './header';
-import Nav from './nav';
-import Main from './main';
+import Header from './Header';
+import Nav from './Nav';
+import Main from './Main';
 
 function Wrapper() {
     return (
