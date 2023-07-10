@@ -23,6 +23,7 @@
         width: 100%;
         background-image: url('../images/bg-pattern-intro-left-mobile.svg');
         background-repeat: no-repeat;
+        z-index: 1;
     }
 
     .heading-section__title {
@@ -30,6 +31,8 @@
         padding-right: 1.2rem;
         padding-top: 2rem;
         font-size: 3rem;
+        position: relative;
+        z-index: 2;
     }
 
     .heading-section__text {
