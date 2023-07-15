@@ -13,17 +13,15 @@
   color: $Very-Light-Gray;
 
   .heading-section__image {
+    display: block;
     height: 28rem;
-    // background-image: url('../images/image-intro-mobile.jpg');
+    width: 100%;
   }
 
   .heading-section__bg-left {
     position: absolute;
     top: 31rem;
-    height: 11rem;
-    width: 100%;
-    // background-image: url('../images/bg-pattern-intro-left-mobile.svg');
-    background-repeat: no-repeat;
+    left: 0;
     z-index: 1;
   }
 
@@ -57,11 +55,7 @@
   .heading-section__bg-right {
     position: absolute;
     top: 60rem;
-    left: 15.7rem;
-    height: 11rem;
-    width: 100%;
-    // background-image: url('../images/bg-pattern-intro-right-mobile.svg');
-    // background-repeat: no-repeat;
+    right: 0rem;
   }
 }
 
