@@ -62,9 +62,15 @@
 .main-section {
   background: $Very-Light-Gray;
   width: 100%;
+  padding-top: 8rem;
+
+  .heading-section__hr {
+    width: 50%;
+  }
 
   .main-section__title {
     @include headings;
+    padding-top: 0;
   }
 
   .main-section__article--icon {

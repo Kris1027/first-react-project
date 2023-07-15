@@ -28,6 +28,7 @@ function Main() {
         />
       </section>
       <section className='main-section'>
+        <hr className='heading-section__hr' />
         <h2 className='main-section__title'>We're Different</h2>
         <article className='main-section__article'>
           <div className='main-section__article--icon'></div>
