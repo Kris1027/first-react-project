@@ -1,6 +1,6 @@
 import React from 'react';
 
-const articles = [
+const articlesData = [
   {
     title: 'Snappy Process',
     icon: './images/icon-snappy-process.svg',
@@ -51,7 +51,7 @@ function Main() {
       <section className='main-section'>
         <hr className='heading-section__hr' />
         <h2 className='main-section__title'>We're Different</h2>
-        {articles.map((article) => (
+        {articlesData.map((article) => (
           <Article articleObj={article} key={article.title} />
         ))}
       </section>
