@@ -16,10 +16,14 @@ function Header() {
         </div>
       </div>
       <div className='hamburger'>
-        <div
+        <img
           className={isActive ? 'hamburger__image active' : 'hamburger__image'}
           onClick={toggleClass}
-        ></div>
+          src={
+            isActive ? './images/icon-close.svg' : './images/icon-hamburger.svg'
+          }
+          alt='hamburger'
+        />
       </div>
       <Nav isActive={isActive} toggleClass={toggleClass} />
     </header>
