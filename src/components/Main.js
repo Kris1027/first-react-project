@@ -31,23 +31,11 @@ function Main() {
         <hr className='heading-section__hr' />
         <h2 className='main-section__title'>We're Different</h2>
         <article className='main-section__article'>
-          <div className='main-section__article--icon'></div>
-          <h3 className='main-section__article--title'>Snappy Process</h3>
-          <p className='main-section__article--text'>
-            Our application process can be completed in minutes, not hours.
-            Don't get stuck filling in tedious forms
-          </p>
-        </article>
-        <article className='main-section__article'>
-          <div className='main-section__article--icon'></div>
-          <h3 className='main-section__article--title'>Snappy Process</h3>
-          <p className='main-section__article--text'>
-            Our application process can be completed in minutes, not hours.
-            Don't get stuck filling in tedious forms
-          </p>
-        </article>
-        <article className='main-section__article'>
-          <div className='main-section__article--icon'></div>
+          <img
+            className='main-section__article--icon'
+            src='./images/icon-snappy-process.svg'
+            alt='icon'
+          />
           <h3 className='main-section__article--title'>Snappy Process</h3>
           <p className='main-section__article--text'>
             Our application process can be completed in minutes, not hours.
