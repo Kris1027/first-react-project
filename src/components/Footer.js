@@ -1,7 +1,18 @@
 export default function Footer() {
   return (
     <footer className='footer'>
-      <div className='footer__logos'></div>
+      <div className='footer__logos'>
+        <div className='footer__logo'>
+          <img src='./images/logo.svg' alt='logo' />
+        </div>
+        <div className='footer__icons'>
+          <img src='./images/icon-facebook.svg' alt='facebook' />
+          <img src='./images/icon-twitter.svg' alt='facebook' />
+          <img src='./images/icon-pinterest.svg' alt='facebook' />
+          <img src='./images/icon-instagram.svg' alt='facebook' />
+        </div>
+        <hr className='footer__hr' />
+      </div>
       <div className='footer__links'>
         <span class='footer__link'>our company</span>
         <span class='footer__link'>how we work</span>
