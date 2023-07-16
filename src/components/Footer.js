@@ -1,6 +1,11 @@
 export default function Footer() {
   return (
     <footer className='footer'>
+      <img
+        className='footer__bg'
+        src='/images/bg-pattern-footer-mobile.svg'
+        alt='background'
+      />
       <div className='footer__logos'>
         <div className='footer__logo'>
           <img src='./images/logo.svg' alt='logo' />

@@ -1,12 +1,27 @@
 @import './variables';
 
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
   background-color: $Very-Light-Gray;
   color: $Dark-Violet;
   width: 100%;
   padding: 10rem 0 4rem 0;
 
+  .footer__bg {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+
+  .footer__logos {
+    z-index: 2;
+  }
+
   .footer__logo {
+    width: 100%;
     text-align: center;
     margin-bottom: 2rem;
   }
