@@ -4,9 +4,9 @@ import Nav from './Nav';
 export default function Header() {
   const [isActive, setIsActive] = useState(false);
 
-  const toggleClass = () => {
+  function toggleClass() {
     setIsActive(!isActive);
-  };
+  }
 
   return (
     <header className='header'>
