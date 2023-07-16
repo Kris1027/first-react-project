@@ -1,5 +1,3 @@
-import React from 'react';
-
 const articlesData = [
   {
     title: 'Snappy Process',
@@ -21,7 +19,7 @@ const articlesData = [
   },
 ];
 
-function Main() {
+export default function Main() {
   return (
     <main className='main'>
       <section className='heading-section'>
@@ -83,5 +81,3 @@ function Article({ articleObj }) {
     </article>
   );
 }
-
-export default Main;

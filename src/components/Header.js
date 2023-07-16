@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
 
-function Header() {
+export default function Header() {
   const [isActive, setIsActive] = useState(false);
 
   const toggleClass = () => {
@@ -29,5 +29,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

@@ -1,11 +1,13 @@
-body, html {
-    font-size: 16px;
-    background: black;
+body,
+html {
+  font-size: 16px;
+  background: black;
 }
 
 .wrapper {
-    position: relative;
-    width: 375px;
-    margin: 0 auto;
-
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 375px;
+  margin: 0 auto;
 }
