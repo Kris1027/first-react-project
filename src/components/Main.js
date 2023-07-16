@@ -55,6 +55,17 @@ function Main() {
           <Article articleObj={article} key={article.title} />
         ))}
       </section>
+      <section className='bottom-section'>
+        <img
+          className='bottom-section__bg'
+          src='./images/bg-pattern-how-we-work-mobile.svg'
+          alt='background'
+        />
+        <h3 className='bottom-section__title'>
+          Find out more about how we work
+        </h3>
+        <button className='bottom-section__btn'>how we work</button>
+      </section>
     </main>
   );
 }

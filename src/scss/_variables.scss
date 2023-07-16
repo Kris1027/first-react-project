@@ -10,8 +10,19 @@ $Dark-Grayish-Violet: hsl(273, 4%, 51%);
 $Very-Light-Gray: hsl(0, 0%, 98%);
 
 @mixin headings {
-    padding-left: 1.2rem;
-    padding-right: 1.2rem;
-    padding-top: 2rem;
-    font-size: 3rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-top: 2rem;
+  font-size: 3rem;
+}
+
+@mixin button {
+  text-transform: uppercase;
+  background: none;
+  color: $Very-Light-Gray;
+  cursor: pointer;
+  font-weight: 400;
+  margin: 1rem;
+  padding: 1rem;
+  border-color: $Very-Light-Gray;
 }
