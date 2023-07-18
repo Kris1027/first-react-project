@@ -1,22 +1,12 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
-function Nav({ isActive }) {
-  const [displaySecondLogo, setdisplaySecondLogo] = useState(false);
-
-  const handleResize = () => {
-    if (window.innerWidth >= 768) {
-      setdisplaySecondLogo(true);
-    } else {
-      setdisplaySecondLogo(false);
-    }
-  };
-
+function Nav({ isActive, displaySecondLogo, handleResize }) {
   useEffect(() => {
     window.addEventListener('resize', handleResize);
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  });
 
   const menuToggle = isActive ? 'menu active' : 'menu';
 

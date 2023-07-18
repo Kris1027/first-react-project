@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 const articlesData = [
   {
@@ -21,23 +21,17 @@ const articlesData = [
   },
 ];
 
-export default function Main() {
-  const [displaySecondLogo, setdisplaySecondLogo] = useState(false);
-
-  const handleResize = () => {
-    if (window.innerWidth >= 768) {
-      setdisplaySecondLogo(true);
-    } else {
-      setdisplaySecondLogo(false);
-    }
-  };
-
+export default function Main({
+  displaySecondLogo,
+  setdisplaySecondLogo,
+  handleResize,
+}) {
   useEffect(() => {
     window.addEventListener('resize', handleResize);
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  });
 
   return (
     <main className='main'>
